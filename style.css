@@ -26,6 +26,7 @@ body {
   display: grid;
   align-items: center;
   justify-items: center;
+  grid-area: header;
 }
 
 .header__title {
@@ -42,6 +43,7 @@ body {
   min-width: 200px;
   justify-items: center;
   padding: 12px 0 24px;
+  grid-area: nav;
 }
 
 .nav__link, .nav__link--active {
@@ -79,10 +81,15 @@ body {
   padding: 0 12px;
 }
 
+.img_card__container {
+  grid-area: img_card__container;
+}
+
 .footer {
   display: grid;
   align-items: center;
   justify-items: center;
+  grid-area: footer;
 }
 
 @media screen and (max-width: 1100px) {
